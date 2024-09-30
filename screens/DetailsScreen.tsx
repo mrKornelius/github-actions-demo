@@ -4,7 +4,7 @@ import { RootStackParamList } from '../App';
 
 type DetailsProps = NativeStackScreenProps<RootStackParamList, 'Details'>;
 
-export default function DetailsScreen({ navigation }: DetailsProps) {
+export default function DetailsScreen() {
   return (
     <View style={s.container}>
       <Text>Details screen</Text>
