@@ -8,7 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "format": "prettier --check .",
-    "types": "tsc --noEmit"
+    "types": "tsc --noEmit",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.18",
